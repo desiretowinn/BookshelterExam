@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <div class="header">
+                <a href="./index.html" class="header-link"><img class="header-logo-img" src="./images/book-logo.svg" alt="logo of bookshelter"></a>
+                <input class="input-search" type="search" placeholder="Search books">
+                <a href="#" class="header-mode"><img class="header-mode-img" src="./images/book-sun.svg" alt="sun"></a>
+                <button class="header-logout" id="logout">Logout</button>
+            </div>
+        </div>
+        
+    </header>
+    <section class="section-sort">
+        <div class="container">
+            <div class="sort-box">
+                <p class="result-number"></p>
+                <select class="select">
+                    <option hidden>Order by newest</option>
+                    <option value="relevance">relevance</option>
+                    <option value="newest">newest</option>
+                </select>
+            </div>
+        </div>
+        
+    </section>    
+    
+    <section class="main-section">
+        <div class="container">
+            <div class="main">
+                <div class="bookmark-box"></div>
+                <div class="wrapper"></div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    
+    
+    <script src="./utils.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

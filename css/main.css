@@ -1,0 +1,360 @@
+*{
+    box-sizing: border-box;
+    font-family: 'rubik', 'arial', sans-serif;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1259px;
+    margin: 0 auto;
+    padding: 0px 25px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 11px 0px;
+}
+
+.input-search{
+    padding-left: 50px;
+    width: 670px;
+    height: 48px;
+    background: #F8FAFD;
+    border: none;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    background-image: url(../images/search-icon.svg);
+    background-repeat: no-repeat;
+    background-position: left 16px center;
+}
+
+.input-search::placeholder{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: rgba(0, 0, 0, 0.24);
+}
+
+.header-logout{
+    background: #0D75FF;
+    border-radius: 4px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 23px;
+}
+
+
+
+/* ================== LOGIN-LOGOUT ==================  */
+
+.login-wrapper{
+    height: 100vh;
+    background-image: url(../images/Login-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-box{
+    text-align: center;
+    /* align-items: center; */
+    width: 300px;
+    height: 292px;
+    margin: 0px auto;
+    padding-top: 200px;
+}
+
+.login-link{
+    width: 100%;
+    height: 100%;
+}
+
+.login-logo-img{
+    width: 226px;
+    height: 44px;
+    margin-bottom: 50px;
+}
+
+.input-username{
+    width: 300px;
+    height: 45px;
+    color: #fff;
+    padding-left: 51px;
+    border: none;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    background-color: transparent;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    background-image: url(../images/user.svg);
+    background-repeat: no-repeat;
+    background-position: left 15px center;
+}
+
+.input-username::placeholder{
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Montserrat';
+    font-weight: 300;
+}
+
+.input-password{
+    width: 300px;
+    height: 45px;
+    padding-left: 51px;
+    border: none;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    background-color: transparent;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 43px;
+    background-image: url(../images/lock.svg);
+    background-repeat: no-repeat;
+    background-position: left 15px center;
+    color: #FFFFFF;
+}
+
+.input-password::placeholder{
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Montserrat';
+    font-weight: 300;
+}
+
+.login-button{
+    width: 300px;
+    height: 45px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #0D75FF;
+}
+
+.login-button:hover{
+    background-color: transparent;
+    border: none;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+
+
+/* ================== Sorting ==================  */
+
+
+.section-sort{
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15);
+}
+
+.sort-box{
+    padding: 11px 0px;
+    width:  1259px;
+}
+
+.result-number{
+    display: inline;
+    padding-left: 300px;
+}
+
+.select{
+    margin-left: 720px;
+    width: 165px;
+    height: 34px;
+    border: none;
+    background: #A6B0C3;
+    color: #fff;
+    border-radius: 4px;
+    padding-left: 42px;
+    background-image: url(../images/calendar.svg);
+    background-repeat: no-repeat;
+    background-position: left 13px center;
+}
+
+/* ================== MAIN CARDS and BOOKMARK ==================  */
+
+.main{
+    display: flex;
+    width: 1259px;
+}
+
+.bookmark-box{
+    width: 238px;
+    height: 40px;
+    display: inline;
+}
+
+.wrapper{
+    background: #E3E6EB;
+    padding: 40px;
+    padding-left: 0;
+    padding-right: 0;
+    display: inline;
+    width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 33px;
+    /* column-gap: 33px; */
+    justify-content: space-around;
+}
+
+.card{
+    width: 282px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 13px 15px 13px 18px;
+}
+
+.img-box{
+    margin: 0px auto;
+    margin-top: 13px;
+    width: 250px;
+    height: 238px;
+    background-color: #F8FAFD;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 18px;
+}
+
+.card-img{
+    width: 201px;
+    height: 202px;
+}
+
+.card-title{
+    width: 246px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    text-align: left;
+    margin: 0;
+}
+
+.card-author{
+    width: 150px;
+    height: 18px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    color: #757881;
+    margin: 0;
+    margin-top: 2px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.card-date{
+    margin: 0;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #757881;
+    margin-bottom: 10px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.bookmark-btn{
+    background: #FFD80D;
+    border-radius: 4px;
+    width: 120px;
+    height: 37px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    border: none;
+}
+
+.bookmark-btn:active{
+    color: #FFD80D;
+    background-color: #000000;
+}
+
+.more-btn{
+    width: 120px;
+    height: 37px;
+    background: rgba(13, 117, 255, 0.05);
+    border-radius: 4px;
+    border: none;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #0D75FF;
+}
+
+.more-btn:active{
+    background-color: #0D75FF;
+    color: #fff;
+}
+
+.read-btn{
+    width: 246px;
+    height: 37px;
+    background: #75828A;
+    border-radius: 4px;
+    border: none;
+}
+
+.read-btn:active{
+    background: #fff;
+}
+
+.card-link{
+    text-decoration: none;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    padding: 10px 106px;
+    margin: -2em;
+}
+
+.card-link:active{
+    color: #75828A;
+}
