@@ -9,7 +9,10 @@
 body{
     margin: 0;
     padding: 0;
+    background: #fff;
 }
+
+
 
 .container{
     width: 1259px;
@@ -22,6 +25,10 @@ body{
     align-items: center;
     justify-content: space-around;
     padding: 11px 0px;
+}
+
+.header-mode-img{
+    cursor: pointer;
 }
 
 .input-search{
@@ -173,15 +180,17 @@ body{
 .sort-box{
     padding: 11px 0px;
     width:  1259px;
+    display: flex;
+    align-items: center;
 }
 
 .result-number{
-    display: inline;
-    padding-left: 300px;
+    width: 400px;
+    padding-left: 210px;
 }
 
 .select{
-    margin-left: 720px;
+    margin-left: 620px;
     width: 165px;
     height: 34px;
     border: none;
@@ -357,4 +366,18 @@ body{
 
 .card-link:active{
     color: #75828A;
+}
+
+
+
+
+/* ================== DARK MODES ==================  */
+
+.body-dark{
+    background: #37306B;
+    color: lightcyan;
+}
+
+.wrapper-dark{
+    background: #66347F;
 }

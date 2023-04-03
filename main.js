@@ -125,4 +125,13 @@ function renderUi(arr) {
     
     
     
-    // ------------------ BOOKMARK ------------------
+    // ------------------ DARK MODE ------------------
+    
+
+    function myFunction() {
+        var element = document.body;
+        element.classList.toggle("body-dark");
+        $('.wrapper').classList.toggle("wrapper-dark")
+    }
+
+    myFunction()
